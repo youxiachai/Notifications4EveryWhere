@@ -1,0 +1,13 @@
+#Android Notifications 4.1 everyWhere#
+It is base ActionBar Impl
+
+If you want to use actionbar like titlebar.
+
+This is your best choose.
+
+but current no stable don't use
+
+
+#TODO list#
+1. impl Tab nav.
+2. improve actionbartitlebar create method.

@@ -1,0 +1,80 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="TextAppearance">
+        <item name="android:textColor">@color/primary_text_dark</item>
+      <!--   <item name="android:textColorHighlight">@android:color/textColorHighlight</item>-->
+        <item name="android:textColorHint">@color/hint_foreground_dark</item>
+   <!--      <item name="android:textColorLink">@android:color/textColorLink</item>  -->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Status Bar Styles -->
+    <style name="TextAppearance.StatusBar">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.Ticker"></style>
+
+    <style name="TextAppearance.StatusBar.Title">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.Icon"></style>
+
+    <!-- Notification content styles -->
+    <style name="TextAppearance.StatusBar.EventContent">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">@dimen/notification_text_size</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent.Title">
+        <item name="android:textColor">#000000</item>
+        <!-- <item name="android:fontFamily">sans-serif-light</item> -->
+        <item name="android:textSize">@dimen/notification_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent.Line2">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent.Info">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent.Time">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent.Emphasis">
+        <item name="android:textColor">#CCCCCC</item>
+    </style>
+
+    <style name="TextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+        <!-- <item name="android:textColor">?textColorSecondary</item> -->
+    </style>
+
+    <style name="TextAppearance.Small.CalendarViewWeekDayView">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
