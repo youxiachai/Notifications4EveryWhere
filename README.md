@@ -25,3 +25,7 @@ Here is screenshots;
 ###android 4.1###
 ![](newnotifications/a41.png)
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/youxiachai/notifications4everywhere/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
